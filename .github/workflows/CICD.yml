@@ -18,11 +18,11 @@
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - main
+      - master
 
 env:
   AZURE_WEBAPP_NAME: nextmasjid-np-pdf    # set this to your application's name
