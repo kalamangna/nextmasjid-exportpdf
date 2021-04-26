@@ -30,7 +30,7 @@ app.post("/api/v1/report/new", async (req, res) => {
   });
 });
 
-const PORT = config.port;
+const PORT = process.env.PORT || config.port;
 app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${PORT}`);
 });
