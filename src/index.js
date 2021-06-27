@@ -82,7 +82,10 @@ class NextMasjidReport {
   async _generateReportFromData(data) {
     try {
       const pagesTemplates = Object.keys(PAGES_TEMPLATES_CONFIG);
-      const browser = await puppeteer.launch({ headless: true });
+      const browser = await puppeteer.launch({
+        headless: true,
+        args: ["--no-sandbox"],
+      });
       const page = await browser.newPage();
       const finalPDFName = `${data.lat},${data.long}.pdf`;
 
