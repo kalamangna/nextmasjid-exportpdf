@@ -23,7 +23,7 @@ const PAGES_TEMPLATES_CONFIG = {
   firstPage: {
     marginTop: 200,
     isPreGeneratedPDFPath: true,
-    path: "./../template/firstPage.pdf",
+    path: "./template/firstPage.pdf",
   },
   secondPage: {
     marginTop: 5,
@@ -31,12 +31,12 @@ const PAGES_TEMPLATES_CONFIG = {
     shouldFetchDataFromGMAP: true,
     shouldGenerateQR: true,
     isPreGeneratedPDFPath: false,
-    path: "./../template/page2.html",
+    path: "./template/page2.html",
   },
   thirdPage: {
     marginTop: 50,
     isPreGeneratedPDFPath: true,
-    path: "./../template/thirdPage.pdf",
+    path: "./template/thirdPage.pdf",
   },
 };
 

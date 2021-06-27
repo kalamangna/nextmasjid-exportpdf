@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/14c19603-1bf4-4bb4-becf-a3918491ee37/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/nextmasjid-exportpdf",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/14c19603-1bf4-4bb4-becf-a3918491ee37/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/nextmasjid-exportpdf"
 }
