@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
-    "pdf-merger-js": "^3.0.5",
+    "pdf-merger-js": "^3.1.0",
     "puppeteer": "^5.3.0",
     "qrcode": "^1.4.4",
     "request": "^2.88.2"
