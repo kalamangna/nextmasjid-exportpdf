@@ -19,6 +19,12 @@ const MAIN_CONFIG = {
   header: `<style>#header, #footer { padding: 0 !important; } @page { size: A4; margin: 0;}</style>`,
 };
 
+// const IMAGES = {
+//   logo: {
+//     path: "./template/logo.svg",
+//   },
+// };
+
 const PAGES_TEMPLATES_CONFIG = {
   firstPage: {
     marginTop: 200,
@@ -90,6 +96,10 @@ class NextMasjidReport {
       const finalPDFName = `${data.lat},${data.long}.pdf`;
 
       console.log("Report is generating please wait ....");
+
+      // const { logo } = IMAGES;
+      // const LOGO = await this._uploadImageToS3(logo, "logo.svg");
+      // data.logo = LOGO;
 
       for (const currentTemplate of pagesTemplates) {
         const {
